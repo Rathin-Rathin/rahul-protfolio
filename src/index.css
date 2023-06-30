@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=EB+Garamond:wght@500&family=Open+Sans:wght@500&display=swap');
+.my-shadow { 
+    box-shadow:5px 5px  90px 5px rgba(238, 242, 6, 0.727);
+ }
+ .myFont{
+    font-family: 'Dancing Script', cursive;
+ }
