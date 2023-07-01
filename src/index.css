@@ -8,3 +8,37 @@
  .myFont{
     font-family: 'Dancing Script', cursive;
  }
+ .myButton1{
+   border:.5px solid yellow;
+   padding:10px 15px;
+   color:white;
+   border-bottom:2px solid yellow;
+   box-shadow:0px 2px 10px yellow;
+   border-radius:5px;
+ }
+ .myButton2{
+   border:.5px solid blue;
+   padding:10px 15px;
+   color:white;
+   border-bottom:2px solid blue;
+   box-shadow:0px 2px 10px blue;
+   border-radius:5px;
+ }
+ .myButton1:hover{
+   padding:15px 20px;
+   font-weight:bold;
+ }
+ .myButton2:hover{
+   padding:15px 20px;
+   font-weight:bold;
+ }
+ .my-shadow2{
+  box-shadow: 0px 2px 2px 0px  blue;
+ }
+ .myCard{
+  transition:2s;
+ 
+ }
+ .myCard:hover{
+  transform: translateY(5px);
+ }
