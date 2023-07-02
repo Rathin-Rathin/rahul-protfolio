@@ -1,7 +1,7 @@
 import About from "../About/About";
 import Contact from "../Contact/Contact";
 import Education from "../Education/Education";
-import Projects from "../Projects/Projects";
+import MyProjects from "../MyProjects/MyProjects";
 import Skills from "../Skills/Skills";
 
 
@@ -10,7 +10,7 @@ const Home = () => {
         <>
             <About />
             <Skills />
-            <Projects />
+            <MyProjects/>
             <Education />
             <Contact/>
         </>

@@ -9,9 +9,9 @@ import {
 import Home from './Pages/Home/Home/Home';
 import About from './Pages/Home/About/About';
 import Skills from './Pages/Home/Skills/Skills';
-import Projects from './Pages/Home/Projects/Projects';
 import Education from './Pages/Home/Education/Education';
 import Contact from './Pages/Home/Contact/Contact';
+import MyProjects from './Pages/Home/MyProjects/MyProjects';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -19,27 +19,30 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element:<Home/>
+        element: <Home />
       },
       {
         path: 'home',
-        element:<Home/>
+        element: <Home />
       },
       {
         path: 'about',
-        element:<About/>
+        element: <About />
       }, {
         path: 'skills',
-        element:<Skills/>
-      }, {
-        path:'projects',
-        element:<Projects/>
-      }, {
-        path:'education',
-        element:<Education/>
+        element: <Skills />
+      },
+      {
+        path: 'projects',
+        element:<MyProjects/>
+      }
+      ,
+      {
+        path: 'education',
+        element: <Education />
       }, {
         path: 'contact',
-        element:<Contact/>
+        element: <Contact />
       }
     ]
   },

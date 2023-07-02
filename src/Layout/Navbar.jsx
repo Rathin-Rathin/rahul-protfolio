@@ -77,7 +77,7 @@ const Navbar = () => {
             </ul>
             <footer>
                 <small>
-                © Copyright ©2023 All rights reserved 
+                © Copyright ©2023 All rights reserved By Rahul
                 </small>
             </footer>
         </nav>
