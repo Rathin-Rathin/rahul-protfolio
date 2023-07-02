@@ -17,16 +17,16 @@ const Main = () => {
             <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content bg-black text-slate-400 p-6">
                 {/* Page content here */}
-                <label htmlFor="my-drawer-2" className="absolute top-1 right-1   drawer-button lg:hidden ">
+                <label htmlFor="my-drawer-2" className="absolute top-2 right-2 z-20  drawer-button lg:hidden ">
                     {signal ?
-                        <AiOutlineMenu className="text-2xl text-yellow-400" onClick={() => handleSignal(!signal)} /> :
-                        <RxCross2 className="text-2xl text-yellow-400" />}
+                        <AiOutlineMenu className="text-3xl text-yellow-400" onClick={() => handleSignal(!signal)} /> :
+                        <RxCross2 className="text-3xl text-yellow-400" />}
                 </label>
 
                 <Outlet />
 
             </div>
-            <div className="drawer-side text-center">
+            <div className="drawer-side text-center pb-6">
                 <label onClick={() => handleSignal(!signal)} htmlFor="my-drawer-2" className="drawer-overlay"></label>
                 
                 
